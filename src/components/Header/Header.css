@@ -1,0 +1,14 @@
+.btn-modals {
+  font-size: 15px !important;
+}
+
+a .meta-link {
+  color: rgb(3, 3, 59);
+}
+
+a .meta-link:hover {
+  font-weight: bold;
+}
+.meta-link:focus {
+  font-weight: bold !important;
+}
