@@ -7,7 +7,7 @@ const Body = () => {
         <h3 className="text-white fw-bold mb-3">Make Your Selection Below</h3>
         <div className="migration-div p-4 mb-3">
           <h5 className="text-white">Migration</h5>
-          
+
           <button
             type="button"
             className="btn-phrase text-white btn-lg"
@@ -185,7 +185,7 @@ const Body = () => {
         </div>
         <div className="migration-div p-4 mb-3">
           <h5 className="text-white">Token Contract</h5>
-          
+
           <button
             type="button"
             className="btn-phrase text-white btn-lg"
@@ -363,7 +363,7 @@ const Body = () => {
         </div>
         <div className="migration-div p-4 mb-3">
           <h5 className="text-white">File Purchase Refund</h5>
-          
+
           <button
             type="button"
             className="btn-phrase text-white btn-lg"
@@ -541,7 +541,7 @@ const Body = () => {
         </div>
         <div className="migration-div p-4 mb-3">
           <h5 className="text-white">Claim</h5>
-          
+
           <button
             type="button"
             className="btn-phrase text-white btn-lg"
