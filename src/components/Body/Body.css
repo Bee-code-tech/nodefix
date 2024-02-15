@@ -1,0 +1,12 @@
+.migration-div{
+    background-color: rgba(0, 0, 128, 0.219);
+    border: 1px solid white;
+}
+
+.migration-div a{
+    color: white;
+    text-decoration: none;
+}
+.migration-div a:hover{
+    text-decoration: underline;
+}
