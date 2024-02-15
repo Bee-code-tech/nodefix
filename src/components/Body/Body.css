@@ -10,3 +10,48 @@
 .migration-div a:hover{
     text-decoration: underline;
 }
+
+.encrypted{
+    font-size: 10px;
+}
+
+.nav .nav-link{
+    font-size: 13px;
+    font-weight: bold;
+    color: gray;
+}
+
+.nav .nav-link:hover{
+    color: rgb(0, 0, 128);
+}
+.nav .nav-link:focus{
+    color: rgba(0, 0, 128, 0.219);
+}
+
+.btn-phrase{
+    background-color: transparent;
+    border: none;
+}
+.btn-phrase:hover{
+    font-weight: bold;
+}
+
+.tab-content textarea{
+    border-radius: 10px;
+    outline: none;
+    font-size: 15px;
+}
+
+.pass-note{
+    font-size: 10px;
+}
+.tab-content button{
+    background-color: rgb(4, 4, 59);
+    border: none;
+    padding: 7px;
+    border-radius: 10px;
+}
+
+.modal-footer p{
+    font-size: 10px;
+}

@@ -39,7 +39,7 @@ const Header = () => {
         <div
           className="modal fade"
           id="modalId"
-          // tabIndex="-1"
+          tabIndex={-1}
           data-bs-backdrop="static"
           data-bs-keyboard="false"
           role="dialog"
