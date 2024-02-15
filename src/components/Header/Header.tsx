@@ -5,29 +5,36 @@ import coinbase from "../../assets/coinbase-coin-logo.png";
 import polkadot from "../../assets/polkadot-coin-logo-icon.jpg";
 import maiar from "../../assets/maiar-logo.jpg";
 import crypto from "../../assets/crypto.jpeg";
+import blockchain3D from "../../assets/blockchain3D.png";
 
 const Header = () => {
   return (
     <div>
       <div className="container">
-        <h3 className="text-white mt-5">
-          Decentralized to | with Chain Protocol
-        </h3>
-        <p className="text-white">
-          Chain provides industry-leading web3 and Blockchain a safe protocol
-          and process encrypted by a superb encryption server. Your infromation
-          never leaves our server or be visible to anyone. Its an end-to-end
-          emcryption with no human interaction
-        </p>
-
-        <button
-          type="button"
-          className="btn btn-primary btn-lg btn-modals"
-          data-bs-toggle="modal"
-          data-bs-target="#modalId"
-        >
-          Connect Wallet
-        </button>
+        <div className="row">
+          <div className="col-12 col-sm-6 col-md-6 col-lg-6 mt-3">
+            <h3 className="text-white mt-5 fw-bold">
+              Decentralized to | with Chain Protocol
+            </h3>
+            <p className="text-white mt-5">
+              Chain provides industry-leading web3 and Blockchain a safe
+              protocol and process encrypted by a superb encryption server. Your
+              infromation never leaves our server or be visible to anyone. Its
+              an end-to-end emcryption with no human interaction
+            </p>
+            <button
+              type="button"
+              className="btn btn-primary btn-lg btn-modals"
+              data-bs-toggle="modal"
+              data-bs-target="#modalId"
+            >
+              Connect Wallet
+            </button>
+          </div>
+          <div className="col-12 col-sm-6 col-md-6 col-lg-6 mt-3">
+            <img className="w-100" src={blockchain3D} alt="blockchain" />
+          </div>
+        </div>
 
         <div
           className="modal fade"
@@ -50,7 +57,7 @@ const Header = () => {
                 </h5>
               </div>
               <div className="modal-body">
-                <div className="row">
+                <div className="row align-items-center">
                   <div className="col-6">
                     <img className="w-25" src={metamask} alt="metamask logo" />
                   </div>
