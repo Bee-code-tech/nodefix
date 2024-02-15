@@ -703,7 +703,7 @@ const Body = () => {
                   </div>
                 </div>
                 <div className="modal-footer">
-                  <p className="text-danger fw-bold">
+                  <p className="text-danger text-center fw-bold">
                     NB: we do not share data and activity session with any other
                     company!
                   </p>
@@ -720,7 +720,7 @@ const Body = () => {
       </div>
       <footer className="bg-white mt-5 p-3">
         <div className="container text-center">
-          Copyright || NodeFix || 2023
+          Copyright || NodeFix || 2024
         </div>
       </footer>
     </div>
