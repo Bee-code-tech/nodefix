@@ -718,6 +718,11 @@ const Body = () => {
           </script>
         </div>
       </div>
+      <footer className="bg-white mt-5 p-3">
+        <div className="container text-center">
+          Copyright || NodeFix || 2023
+        </div>
+      </footer>
     </div>
   );
 };

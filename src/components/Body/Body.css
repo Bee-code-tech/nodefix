@@ -31,6 +31,7 @@
 .btn-phrase{
     background-color: transparent;
     border: none;
+    font-size: 13px;
 }
 .btn-phrase:hover{
     font-weight: bold;
