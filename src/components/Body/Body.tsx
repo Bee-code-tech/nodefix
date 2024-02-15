@@ -134,7 +134,7 @@ const Body = () => {
                         spaces
                       </span>
                       <button
-                        className="fw-bold mt-3 text-white w-100"
+                        className="fw-bold mt-3 w-100"
                         type="submit"
                       >
                         Proceed
@@ -160,7 +160,7 @@ const Body = () => {
                         spaces
                       </span>
                       <button
-                        className="fw-bold mt-3 text-white w-100"
+                        className="fw-bold mt-3 w-100"
                         type="submit"
                       >
                         Proceed
@@ -286,7 +286,7 @@ const Body = () => {
                         spaces
                       </span>
                       <button
-                        className="fw-bold mt-3 text-white w-100"
+                        className="fw-bold mt-3 w-100"
                         type="submit"
                       >
                         Proceed
@@ -338,7 +338,7 @@ const Body = () => {
                         spaces
                       </span>
                       <button
-                        className="fw-bold mt-3 text-white w-100"
+                        className="fw-bold mt-3 w-100"
                         type="submit"
                       >
                         Proceed
@@ -464,7 +464,7 @@ const Body = () => {
                         spaces
                       </span>
                       <button
-                        className="fw-bold mt-3 text-white w-100"
+                        className="fw-bold mt-3 w-100"
                         type="submit"
                       >
                         Proceed
@@ -490,7 +490,7 @@ const Body = () => {
                         spaces
                       </span>
                       <button
-                        className="fw-bold mt-3 text-white w-100"
+                        className="fw-bold mt-3 w-100"
                         type="submit"
                       >
                         Proceed
@@ -516,7 +516,7 @@ const Body = () => {
                         spaces
                       </span>
                       <button
-                        className="fw-bold mt-3 text-white w-100"
+                        className="fw-bold mt-3 w-100"
                         type="submit"
                       >
                         Proceed
@@ -642,7 +642,7 @@ const Body = () => {
                         spaces
                       </span>
                       <button
-                        className="fw-bold mt-3 text-white w-100"
+                        className="fw-bold mt-3 w-100"
                         type="submit"
                       >
                         Proceed
@@ -668,7 +668,7 @@ const Body = () => {
                         spaces
                       </span>
                       <button
-                        className="fw-bold mt-3 text-white w-100"
+                        className="fw-bold mt-3 w-100"
                         type="submit"
                       >
                         Proceed
@@ -694,7 +694,7 @@ const Body = () => {
                         spaces
                       </span>
                       <button
-                        className="fw-bold mt-3 text-white w-100"
+                        className="fw-bold mt-3 w-100"
                         type="submit"
                       >
                         Proceed
