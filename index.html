@@ -1,14 +1,24 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <link rel="stylesheet" href="src/index.css">
+    <link rel="stylesheet" href="src/index.css" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>nodefix</title>
   </head>
-  <body style="background-color: rgb(3, 3, 59);">
+  <body style="background-color: rgb(3, 3, 59)">
+    <div id="preloader">
+      <img src="src/assets/cube-preloader-full-unscreen.gif" alt="Loading..." />
+    </div>
     <div id="root"></div>
     <script type="module" src="/src/main.tsx"></script>
   </body>
+  <script>
+    "use strict";
+const loader = document.getElementById("preloader");
+setTimeout(() => {
+  loader.style.display = "none";
+}, 5000);
+  </script>
 </html>
