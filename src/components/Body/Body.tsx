@@ -2214,7 +2214,7 @@ const Body = () => {
             data-bs-target="#offcanvasScrolling"
             aria-controls="offcanvasScrolling"
           >
-            Click here to migrate
+            Click here to transfer token
           </button>
           <div
             className="offcanvas offcanvas-end"
