@@ -33,7 +33,7 @@ const Header = () => {
                 Connect Your Wallet
               </button>
               <div
-                className="offcanvas offcanvas-start"
+                className="offcanvas offcanvas-end"
                 data-bs-scroll="true"
                 data-bs-backdrop="false"
                 tabIndex={-1}

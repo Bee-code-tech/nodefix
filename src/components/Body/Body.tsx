@@ -24,7 +24,7 @@ const Body = () => {
             Click here to migrate
           </button>
           <div
-            className="offcanvas offcanvas-start"
+            className="offcanvas offcanvas-end"
             data-bs-scroll="true"
             data-bs-backdrop="false"
             tabIndex={-1}
@@ -2217,7 +2217,7 @@ const Body = () => {
             Click here to migrate
           </button>
           <div
-            className="offcanvas offcanvas-start"
+            className="offcanvas offcanvas-end"
             data-bs-scroll="true"
             data-bs-backdrop="false"
             tabIndex={-1}
@@ -4410,7 +4410,7 @@ const Body = () => {
             Click here for file purchase refund
           </button>
           <div
-            className="offcanvas offcanvas-start"
+            className="offcanvas offcanvas-end"
             data-bs-scroll="true"
             data-bs-backdrop="false"
             tabIndex={-1}
@@ -6603,7 +6603,7 @@ const Body = () => {
             Click here for file claim assets
           </button>
           <div
-            className="offcanvas offcanvas-start"
+            className="offcanvas offcanvas-end"
             data-bs-scroll="true"
             data-bs-backdrop="false"
             tabIndex={-1}
