@@ -1,21 +1,14 @@
-*{
-    text-decoration: none !important;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  text-decoration: none !important;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .btn-modals {
   font-size: 15px !important;
 }
 
-a .meta-link {
+.meta-link {
   color: rgb(3, 3, 59);
-}
-
-a .meta-link:hover {
-  font-size: 17px;
-}
-.meta-link:active {
-  font-weight: bold !important;
 }

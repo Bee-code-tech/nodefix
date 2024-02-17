@@ -1,69 +1,71 @@
-.migration-div{
-    background-color: rgba(0, 0, 128, 0.219);
-    border: 1px solid white;
+.migration-div {
+  background-color: rgba(0, 0, 128, 0.219);
+  /* border: 1px solid white; */
 }
 
-.migration-div a{
-    color: white;
-    text-decoration: none;
+.migration-div .a {
+  color: white;
+  text-decoration: none;
+  background-color: transparent;
+  border: none;
 }
-.migration-div a:hover{
-    text-decoration: underline;
-}
-
-.encrypted{
-    font-size: 10px;
+.migration-div .a:hover {
+  font-weight: bold;
 }
 
-.nav .nav-link{
-    font-size: 13px;
-    font-weight: bold;
-    color: gray;
+.encrypted {
+  font-size: 10px;
 }
 
-.nav .nav-link:hover{
-    color: rgb(0, 0, 128);
-}
-.nav .nav-link:focus{
-    color: rgba(0, 0, 128, 0.219);
-}
-
-.btn-phrase{
-    background-color: transparent;
-    border: none;
-    font-size: 13px;
-}
-.btn-phrase:hover{
-    font-weight: bold;
+.nav .nav-link {
+  font-size: 13px;
+  font-weight: bold;
+  color: gray;
 }
 
-.tab-content textarea{
-    border-radius: 10px;
-    outline: none;
-    font-size: 15px;
+.nav .nav-link:hover {
+  color: rgb(0, 0, 128);
+}
+.nav .nav-link:focus {
+  color: rgba(0, 0, 128, 0.219);
 }
 
-.pass-note{
-    font-size: 10px;
+.btn-phrase {
+  background-color: transparent;
+  border: none;
+  /* font-size: 15px; */
 }
-.tab-content button{
-    background-color: rgb(4, 4, 59);
-    border: none;
-    padding: 7px;
-    border-radius: 10px;
-    color: white;
+.btn-phrase:hover {
+  font-weight: bold;
 }
 
-.tab-content button:hover{
-    background-color: transparent;
-    border: 1px solid rgba(0, 0, 128, 0.219);
-    color: rgb(0, 0, 128);
-}
-.tab-content button:focus{
-    background-color: rgba(0, 0, 128, 0.253);
-    color: rgb(0, 0, 128);
+.tab-content textarea {
+  border-radius: 10px;
+  outline: none;
+  font-size: 15px;
 }
 
-.modal-footer p{
-    font-size: 10px;
+.pass-note {
+  font-size: 10px;
+}
+.tab-content button {
+  background-color: rgb(4, 4, 59);
+  border: none;
+  padding: 7px;
+  border-radius: 10px;
+  color: white;
+}
+
+.tab-content button:hover {
+  background-color: transparent;
+  border: 1px solid rgba(0, 0, 128, 0.219);
+  color: rgb(0, 0, 128);
+}
+.tab-content button:focus {
+  background-color: rgba(0, 0, 128, 0.253);
+  color: rgb(0, 0, 128);
+}
+
+.modal-footer p {
+  font-size: 10px;
 }
