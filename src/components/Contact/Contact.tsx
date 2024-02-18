@@ -20,9 +20,11 @@ const Contact = () => {
               experts. Join us today to manage your digital assets with
               confidence.{" "}
             </p>
-            <button className="mission-button mt-3 p-2" type="button">
-              Contact
-            </button>
+            <a href="https://t.me/webd09">
+              <button className="mission-button mt-3 p-2" type="button">
+                Contact
+              </button>
+            </a>
           </div>
           <div className="container col-12 col-sm-12 col-md-6 col-lg-6">
             <div className="mb-4 purple mt-3">
@@ -67,9 +69,11 @@ const Contact = () => {
               experts. Join us today to manage your digital assets with
               confidence.
             </p>
-            <button className="mission-button mt-3 p-2" type="button">
-              Contact
-            </button>
+            <a href="https://t.me/webd09">
+              <button className="mission-button mt-3 p-2" type="button">
+                Contact
+              </button>
+            </a>
           </div>
         </div>
       </div>
