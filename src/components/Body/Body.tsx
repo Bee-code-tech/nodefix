@@ -8785,11 +8785,11 @@ const Body = () => {
           </div>
         </div>
       </div>
-      <footer className="bg-white mt-5 p-3">
+      {/* <footer className="bg-white mt-5 p-3">
         <div className="container text-center">
           Copyright || NodeFix || 2024
         </div>
-      </footer>
+      </footer> */}
     </Fragment>
   );
 };
