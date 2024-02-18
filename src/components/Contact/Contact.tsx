@@ -24,8 +24,8 @@ const Contact = () => {
               Contact
             </button>
           </div>
-          <div className="container">
-            <div className="col-12 col-sm-12 col-md-6 col-lg-6 mb-4 purple mt-3">
+          <div className="container col-12 col-sm-12 col-md-6 col-lg-6">
+            <div className="mb-4 purple mt-3">
               <h3 className="explore-h3 text-white fs-4 fw-light">
                 Encrypted Credentials
               </h3>
@@ -37,8 +37,8 @@ const Contact = () => {
               <img className="wallet w-75" src={wallet} alt="" />
             </div>
           </div>
-          <div className="container">
-            <div className="col-12 col-sm-12 col-md-6 col-lg-6 pink">
+          <div className="container col-12 col-sm-12 col-md-6 col-lg-6">
+            <div className=" pink">
               <h3 className="explore-h3 text-white fs-4 fw-light">
                 Secure Crypto Wallets
               </h3>
