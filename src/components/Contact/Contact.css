@@ -1,0 +1,65 @@
+.purple {
+  background-color: #b59be3;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.wallet {
+  position: relative;
+  left: 5rem;
+}
+
+.pink {
+  background-color: #ff0475;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.end-explore {
+  padding: 3rem;
+}
+
+.end-lg-explore {
+  border-radius: 10px;
+  background: linear-gradient(
+      rgba(8, 3, 85, 0.897) 50%,
+      rgba(8, 3, 85, 0.897) 50%
+    ),
+    url(../../assets/360_F_369339836_AmJg6vLxVAVB0HhwOtUM037xTcRBOTmO.jpg);
+  background-position: center;
+  background-repeat: none;
+  background-size: cover;
+  justify-content: center;
+  color: white;
+  padding: 2rem;
+}
+
+.mission-button {
+  border: 1px solid white;
+  background: transparent;
+  color: white;
+  width: 25%;
+}
+
+.mission-button:hover {
+  background-color: white;
+  color: rgba(8, 3, 85, 0.897);
+}
+
+/* Media Query */
+
+@media (max-width: 576px) {
+  .mission-button {
+    width: 100%;
+  }
+}
+@media (max-width: 768) {
+  .mission-button {
+    width: 100%;
+  }
+}
+@media (max-width: 1024) {
+  .mission-button {
+    width: 100%;
+  }
+}

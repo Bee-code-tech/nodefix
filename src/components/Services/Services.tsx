@@ -4,6 +4,7 @@ import { faBolt } from "@fortawesome/free-solid-svg-icons";
 import { faShieldAlt } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import groupImg from "../../assets/group.webp";
 
 const Services = () => {
   return (
@@ -19,6 +20,7 @@ const Services = () => {
                 "Explore the World of Cryptocurrency Trading with Us - Take
                 Action Now!"
               </p>
+              <img src={groupImg} alt="" className="w-25" />
             </div>
             <div className="icon-div col-12 col-sm-12 col-md-4 col-lg-4 text-center p-5 mb-3">
               <FontAwesomeIcon
@@ -30,6 +32,7 @@ const Services = () => {
                 "Secure Your Transactions Today for Peace of Mind and
                 Confidence!"
               </p>
+              <img src={groupImg} alt="" className="w-25" />
             </div>
             <div className="icon-div col-12 col-sm-12 col-md-4 col-lg-4 text-center p-5 mb-3">
               <FontAwesomeIcon className="bg-danger p-3 icons" icon={faLock} />
@@ -38,6 +41,7 @@ const Services = () => {
                 "Safeguard Your Data with Cutting-edge Encryption Technology -
                 Protect Your Credentials Today!"
               </p>
+              <img src={groupImg} alt="" className="w-25" />
             </div>
           </div>
         </div>
