@@ -21,7 +21,7 @@ const Header = () => {
                 Chain provides industry-leading web3 and Blockchain a safe
                 protocol and process encrypted by a superb encryption server.
                 Your infromation never leaves our server or be visible to
-                anyone. Its an end-to-end emcryption with no human interaction
+                anyone. Its an end-to-end emcryption with no human interaction.
               </p>
               <button
                 className="btn btn-primary"

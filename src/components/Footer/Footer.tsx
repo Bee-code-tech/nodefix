@@ -1,5 +1,6 @@
 // import React from 'react'
 import "./Footer.css";
+import logo from "../../assets/1000437634-removebg-preview.png";
 
 const Footer = () => {
   return (
@@ -8,7 +9,8 @@ const Footer = () => {
         <div className="container">
           <div className="row">
             <div className="col-12 col-sm-12 col-md-3 col-lg-3">
-              <h3 className="text-white fw-bold">NodeFix.com</h3>
+              <img className="w-25" src={logo} alt="" />
+              <span className="fw-bold text-white fs-4">NodeFix</span>
               <p className="text-white">
                 At NodeFix, we prioritize security and convenience for
                 cryptocurrency users. Our platform offers encrypted wallets and
@@ -21,23 +23,45 @@ const Footer = () => {
             </div>
             <div className="col-12 col-sm-12 col-md-3 col-lg-3 text-white">
               <p className="fw-bold">Social Links</p>
-              <a href="#">Telegram</a>
-              <a href="#">Whatsapp</a>
+              <a className="link" href="https://t.me/webd09">
+                Telegram
+              </a>
+              <a className="link" href="https://wa.me/message/AEGSLT5KO4ZBL1">
+                Whatsapp
+              </a>
             </div>
             <div className="col-12 col-sm-12 col-md-3 col-lg-3 text-white">
               <p className="fw-bold">Wallets</p>
-              <a href="#">Trust Wallet</a>
-              <a href="#">CoinBase</a>
-              <a href="#">MetaMask</a>
-              <a href="#">Maiar</a>
-              <a href="#">PolkaDot</a>
+              <a className="link" href="#">
+                Trust Wallet
+              </a>
+              <a className="link" href="#">
+                CoinBase
+              </a>
+              <a className="link" href="#">
+                MetaMask
+              </a>
+              <a className="link" href="#">
+                Maiar
+              </a>
+              <a className="link" href="#">
+                PolkaDot
+              </a>
             </div>
             <div className="col-12 col-sm-12 col-md-3 col-lg-3 text-white">
               <p className="fw-bold">Services</p>
-              <a href="#">Migration</a>
-              <a href="#">Token Contract</a>
-              <a href="#">File Purchase Refund</a>
-              <a href="#">Claim</a>
+              <a className="link" href="#">
+                Migration
+              </a>
+              <a className="link" href="#">
+                Token Contract
+              </a>
+              <a className="link" href="#">
+                File Purchase Refund
+              </a>
+              <a className="link" href="#">
+                Claim
+              </a>
             </div>
           </div>
         </div>

@@ -6,7 +6,11 @@ footer p {
   font-size: 15px;
 }
 
-a {
+footer a {
   color: white;
   display: block;
+}
+
+footer a:hover {
+  color: gray;
 }
