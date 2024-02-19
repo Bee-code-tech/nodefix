@@ -226,10 +226,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
@@ -403,10 +400,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
@@ -594,10 +588,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
@@ -771,10 +762,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
@@ -960,10 +948,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
@@ -1137,10 +1122,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
@@ -1322,10 +1304,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
@@ -1499,10 +1478,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
@@ -1684,10 +1660,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
@@ -1861,10 +1834,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
@@ -2050,10 +2020,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
@@ -2227,10 +2194,7 @@ const Header = () => {
                               </div>
                             </div>
                             <div className="modal-footer">
-                              <p className="text-danger fw-bold">
-                                NB: we do not share data and activity session
-                                with any other company!
-                              </p>
+                              <p className="text-danger fw-bold">.</p>
                             </div>
                           </div>
                         </div>
