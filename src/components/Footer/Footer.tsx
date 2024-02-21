@@ -1,8 +1,9 @@
 // import React from 'react'
 import "./Footer.css";
 import logo from "../../assets/1000437634-removebg-preview.png";
+import  React from "react";
 
-const Footer = () => {
+const Footer: React.FC = () => {
   return (
     <div>
       <footer className="mt-5 p-3">

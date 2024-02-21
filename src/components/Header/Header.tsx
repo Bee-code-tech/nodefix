@@ -1,4 +1,5 @@
 import "./Header.css";
+import React from 'react'
 import metamask from "../../assets/metamask.png";
 import trustwallet from "../../assets/trust-wallet-logo.webp";
 import coinbase from "../../assets/coinbase-coin-logo.png";
@@ -7,7 +8,7 @@ import maiar from "../../assets/maiar-logo.jpg";
 import crypto from "../../assets/crypto.jpeg";
 import { Fragment } from "react";
 
-const Header = () => {
+const Header: React.FC = () => {
   return (
     <Fragment>
       {/* testing  */}

@@ -8,8 +8,9 @@ import { faCoins } from "@fortawesome/free-solid-svg-icons";
 import { faWallet } from "@fortawesome/free-solid-svg-icons";
 import { Fragment } from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import  React from "react";
 
-const Contact = () => {
+const Contact: React.FC = () => {
   return (
     <Fragment>
       <div className="container mt-5">
