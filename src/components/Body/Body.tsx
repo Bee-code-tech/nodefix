@@ -1,10 +1,5 @@
 import "./Body.css";
-import metamask from "../../assets/metamask.png";
-import trustwallet from "../../assets/trust-wallet-logo.webp";
-import coinbase from "../../assets/coinbase-coin-logo.png";
-import polkadot from "../../assets/polkadot-coin-logo-icon.jpg";
-import maiar from "../../assets/maiar-logo.jpg";
-import crypto from "../../assets/crypto.jpeg";
+
 import { Fragment } from "react";
 import  React from "react";
 
