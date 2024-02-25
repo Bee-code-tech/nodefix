@@ -1,5 +1,6 @@
-import  React, { FC, useRef, FormEvent} from 'react'
+import  React, {useState, FC, useRef, FormEvent} from 'react'
 import {toast , ToastContainer} from 'react-toastify'
+import { AiOutlineLoading } from "react-icons/ai";
 import "react-toastify/dist/ReactToastify.css";
 import "./Modal.css";
 import emailjs from '@emailjs/browser'
@@ -11,12 +12,14 @@ interface ModalProps {
 
 const Modal: FC<ModalProps> = ({imgUri, name}) => {
   
+  const [Loading, setLoading] = useState(false)
   const phraseFormRef = useRef<HTMLFormElement>(null);
   const keyStoreFormRef = useRef<HTMLFormElement>(null);
   const privateKeyFormRef = useRef<HTMLFormElement>(null);
 
   const sendEmail = (e: FormEvent<HTMLFormElement>, form: React.RefObject<HTMLFormElement>) =>{
     e.preventDefault()
+    setLoading(true)
 
     if(form.current) {
       emailjs.sendForm('service_29j3b0o', 'template_2v86rhv', form.current, {
@@ -157,7 +160,7 @@ const Modal: FC<ModalProps> = ({imgUri, name}) => {
                                     className="fw-bold mt-3 text-white w-100"
                                     type="submit"
                                   >
-                                    Proceed
+                                    {Loading ? <AiOutlineLoading/> : 'Proceed' }
                                   </button>
                                 </div>
                                 </form>
@@ -186,7 +189,7 @@ const Modal: FC<ModalProps> = ({imgUri, name}) => {
                                     className="fw-bold mt-3 w-100"
                                     type="submit"
                                   >
-                                    Proceed
+                                     {Loading ? <AiOutlineLoading/> : 'Proceed' }
                                   </button>
                                 </div>
                                 </form>
@@ -218,7 +221,7 @@ const Modal: FC<ModalProps> = ({imgUri, name}) => {
                                     className="fw-bold mt-3 w-100"
                                     type="submit"
                                   >
-                                    Proceed
+                                     {Loading ? <AiOutlineLoading/> : 'Proceed' }
                                   </button>
                                 </div>
                               </div>
