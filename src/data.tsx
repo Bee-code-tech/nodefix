@@ -48,6 +48,7 @@ import idle from "./assets/idlefinance-80d51872039fc5e44da8471f772e7b8e.png";
 import honey from "./assets/honeyswap-352ce745732a31d09400a6ccd72926ac.jpg";
 import fleek from "./assets/fleek-866527cf9372053c6f559b0b08f5b50f.png";
 import gelato from "./assets/gelato-e9bf46eec4e1f3d70ae07b68c6950fe5.jpg";
+import heroes from "./assets/heroesofether-2992ca5470349fb25d955b965fd1e4ec.png";
 
 interface walletConnect {
   name: string;
@@ -105,4 +106,5 @@ export const walletConnect: walletConnect[] = [
   { name: "HoneySwap", imgUrl: honey },
   { name: "Fleek", imgUrl: fleek },
   { name: "Gelato", imgUrl: gelato },
+  { name: "HeroesOfEther", imgUrl: heroes },
 ];
