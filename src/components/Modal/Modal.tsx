@@ -52,7 +52,7 @@ const Modal: FC<ModalProps> = ({imgUri, name}) => {
                     <div className="col-6">
                       <button
                         type="button"
-                        className="btn-phrase text-white btn-lg"
+                        className="btn-phrase btn-lg"
                         data-bs-toggle="modal"
                         data-bs-target="#modalId"
                       >
@@ -156,7 +156,7 @@ const Modal: FC<ModalProps> = ({imgUri, name}) => {
                                     single spaces
                                   </span>
                                   <button
-                                    className="fw-bold mt-3 text-white w-100"
+                                    className="fw-bold mt-3 w-100"
                                     type="submit"
                                   >
                                     Proceed
