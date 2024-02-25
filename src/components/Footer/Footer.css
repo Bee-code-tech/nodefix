@@ -1,0 +1,16 @@
+footer {
+  background-color: rgb(8, 8, 87);
+}
+
+footer p {
+  font-size: 15px;
+}
+
+footer a {
+  color: white;
+  display: block;
+}
+
+footer a:hover {
+  color: gray;
+}

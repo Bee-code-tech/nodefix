@@ -46,6 +46,28 @@
   color: rgba(8, 3, 85, 0.897);
 }
 
+.coin-div {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: lime;
+  border-right: 5px solid rgb(8, 3, 85) !important;
+}
+.coin-div2 {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background-color: white;
+  border-right: 5px solid rgb(8, 3, 85) !important;
+}
+
+.coin-div:hover {
+  background-color: white;
+  color: rgba(8, 3, 85, 0.897);
+}
+.coin-div2:hover {
+  background-color: lime;
+  color: rgba(8, 3, 85, 0.897);
+}
+
 /* Media Query */
 
 @media (max-width: 576px) {

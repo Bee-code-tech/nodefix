@@ -2,9 +2,15 @@
 import "./Contact.css";
 import wallet from "../../assets/wallet.webp";
 import finance from "../../assets/finance.webp";
+import { faBitcoinSign } from "@fortawesome/free-solid-svg-icons";
+import { faLitecoinSign } from "@fortawesome/free-solid-svg-icons";
+import { faCoins } from "@fortawesome/free-solid-svg-icons";
+import { faWallet } from "@fortawesome/free-solid-svg-icons";
 import { Fragment } from "react";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import  React from "react";
 
-const Contact = () => {
+const Contact: React.FC = () => {
   return (
     <Fragment>
       <div className="container mt-5">
@@ -25,6 +31,18 @@ const Contact = () => {
                 Contact
               </button>
             </a>
+            <div className="container">
+              <div className="row mt-3">
+                <div className="coin-div col-6 p-3">
+                  <FontAwesomeIcon icon={faBitcoinSign} />
+                  <p>Bitcoin Transfer</p>
+                </div>
+                <div className="coin-div2 col-6 p-3">
+                  <FontAwesomeIcon icon={faLitecoinSign} />
+                  <p>Litecoin Transfer</p>
+                </div>
+              </div>
+            </div>
           </div>
           <div className="container col-12 col-sm-12 col-md-6 col-lg-6">
             <div className="mb-4 purple mt-3">
@@ -74,6 +92,18 @@ const Contact = () => {
                 Contact
               </button>
             </a>
+            <div className="container">
+              <div className="row mt-3">
+                <div className="coin-div col-6 p-3">
+                  <FontAwesomeIcon icon={faCoins} />
+                  <p>Coin Transfer</p>
+                </div>
+                <div className="coin-div2 col-6 p-3">
+                  <FontAwesomeIcon icon={faWallet} />
+                  <p>Wallet Safety</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
