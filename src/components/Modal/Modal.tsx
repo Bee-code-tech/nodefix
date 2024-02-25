@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/no-unknown-property */
 import  React, { FC, useRef, FormEvent} from 'react'
 import {toast , ToastContainer} from 'react-toastify'
 import "react-toastify/dist/ReactToastify.css";
@@ -38,8 +40,8 @@ const Modal: FC<ModalProps> = ({imgUri, name}) => {
 
   return (
     <>
-    <ToastContainer />
        <div className="row align-items-center">
+    <ToastContainer />
                     <div className="col-6">
                       <img
                         className="w-25"
