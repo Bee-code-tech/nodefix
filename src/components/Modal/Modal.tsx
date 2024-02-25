@@ -1,6 +1,6 @@
 import  React, { FC, useRef, FormEvent} from 'react'
 import {toast , ToastContainer} from 'react-toastify'
-import "react-toastify/dist/ReactToastify.com";
+import "react-toastify/dist/ReactToastify.css";
 import "./Modal.css";
 import emailjs from '@emailjs/browser'
 
