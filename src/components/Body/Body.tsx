@@ -9,7 +9,6 @@ const Body: React.FC = () => {
       <div className="container mt-5">
         <h3 className="text-white fw-bold mb-3">Make Your Selection Below</h3>
         <div className="migration-div p-4 mb-3">
-          {/* Migration cards  */}
           <h5 className="text-white">Migration</h5>
           <button
             className="a"
