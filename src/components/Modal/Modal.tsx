@@ -1,3 +1,5 @@
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable react/no-unknown-property */
 import  React, {useState, FC, useRef, FormEvent} from 'react'
 import {toast , ToastContainer} from 'react-toastify'
 import { AiOutlineLoading } from "react-icons/ai";
