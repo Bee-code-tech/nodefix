@@ -51,7 +51,7 @@ const Contact: React.FC = () => {
               </h3>
               <p className="explore-p fs-5 fw-light text-white mt-3">
                 Our platform employs cutting-edge encryption techniques to
-                protect users' sensitive credentials, ensuring that their data
+                protect users sensitive credentials, ensuring that their data
                 remains secure at all times.
               </p>
               <img className="wallet w-75" src={wallet} alt="" />
@@ -64,7 +64,7 @@ const Contact: React.FC = () => {
               </h3>
               <p className="explore-p fs-5 fw-light text-white mt-3">
                 NodeFix offers state-of-the-art crypto wallets equipped with
-                advanced encryption technology to ensure the safety of users'
+                advanced encryption technology to ensure the safety of users
                 digital assets. We prioritize security to provide peace of mind
                 for our users.
               </p>

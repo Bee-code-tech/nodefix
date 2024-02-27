@@ -5,10 +5,11 @@ import { faShieldAlt } from "@fortawesome/free-solid-svg-icons";
 import { faLock } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import groupImg from "../../assets/group.webp";
+import { Fragment } from "react";
 
 const Services = () => {
   return (
-    <div>
+    <Fragment>
       <div className="blue p-4">
         <div className="container mt-5">
           <h3 className="text-white fw-bold fs-1">Services</h3>
@@ -17,8 +18,8 @@ const Services = () => {
               <FontAwesomeIcon className="bg-primary p-3 icons" icon={faBolt} />
               <p className="fw-bold text-white">Quick Action</p>
               <p className="text-white">
-                "Explore the World of Cryptocurrency Trading with Us - Take
-                Action Now!"
+                `Explore the World of Cryptocurrency Trading with Us - Take
+                Action Now!`
               </p>
               <img src={groupImg} alt="" className="w-25" />
             </div>
@@ -29,8 +30,8 @@ const Services = () => {
               />
               <p className="fw-bold text-white">Safe Transaction</p>
               <p className="text-white">
-                "Secure Your Transactions Today for Peace of Mind and
-                Confidence!"
+                `Secure Your Transactions Today for Peace of Mind and
+                Confidence!`
               </p>
               <img src={groupImg} alt="" className="w-25" />
             </div>
@@ -38,15 +39,15 @@ const Services = () => {
               <FontAwesomeIcon className="bg-danger p-3 icons" icon={faLock} />
               <p className="fw-bold text-white">Encrypted Credentials</p>
               <p className="text-white">
-                "Safeguard Your Data with Cutting-edge Encryption Technology -
-                Protect Your Credentials Today!"
+                `Safeguard Your Data with Cutting-edge Encryption Technology -
+                Protect Your Credentials Today!`
               </p>
               <img src={groupImg} alt="" className="w-25" />
             </div>
           </div>
         </div>
       </div>
-    </div>
+    </Fragment>
   );
 };
 
