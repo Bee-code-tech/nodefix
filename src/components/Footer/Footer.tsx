@@ -1,7 +1,7 @@
 // import React from 'react'
 import "./Footer.css";
 import logo from "../../assets/1000437634-removebg-preview.png";
-import  React from "react";
+import React from "react";
 
 const Footer: React.FC = () => {
   return (

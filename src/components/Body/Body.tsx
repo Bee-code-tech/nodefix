@@ -1,7 +1,7 @@
 import "./Body.css";
 
 import { Fragment } from "react";
-import  React from "react";
+import React from "react";
 
 const Body: React.FC = () => {
   return (
@@ -19,7 +19,6 @@ const Body: React.FC = () => {
           >
             Click here to migrate
           </button>
-         
         </div>
         {/* Token Contract Card  */}
         <div className="migration-div p-4 mb-3">
@@ -33,7 +32,6 @@ const Body: React.FC = () => {
           >
             Click here to transfer token
           </button>
-         
         </div>
 
         {/* Purchase card */}
@@ -48,7 +46,6 @@ const Body: React.FC = () => {
           >
             Click here for file purchase refund
           </button>
-          
         </div>
 
         {/* Claim card  */}
@@ -63,7 +60,6 @@ const Body: React.FC = () => {
           >
             Click here for file claim assets
           </button>
-          
         </div>
       </div>
     </Fragment>

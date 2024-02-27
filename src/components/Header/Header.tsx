@@ -1,15 +1,12 @@
 import "./Header.css";
-import React from 'react'
+import React from "react";
 
 import { Fragment } from "react";
 // import bootstrap from "bootstrap";
-import  Modal  from "../Modal/Modal";
+import Modal from "../Modal/Modal";
 import { walletConnect } from "../../data";
 
 const Header: React.FC = () => {
-
-  
-  
   return (
     <Fragment>
       {/* testing  */}
@@ -56,20 +53,15 @@ const Header: React.FC = () => {
                 </div>
                 {/* List of Wallets  */}
                 <div className="offcanvas-body">
-                  {
-                     walletConnect.map((wallet, i)=> {
-                         const {imgUrl, name} = wallet
+                  {walletConnect.map((wallet, i) => {
+                    const { imgUrl, name } = wallet;
 
-                         
-                       return (
-                       <> 
-                   <Modal imgUri={imgUrl} name={name} key={i}/>             
-                         
-                       </>
-
-                       )
-                     })
-                  }
+                    return (
+                      <>
+                        <Modal imgUri={imgUrl} name={name} key={i} />
+                      </>
+                    );
+                  })}
                 </div>
               </div>
             </div>
