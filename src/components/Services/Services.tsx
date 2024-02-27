@@ -1,4 +1,4 @@
-// import React from "react";
+import React from "react";
 import "./Services.css";
 import { faBolt } from "@fortawesome/free-solid-svg-icons";
 import { faShieldAlt } from "@fortawesome/free-solid-svg-icons";
