@@ -42,21 +42,21 @@ marquee {
 
 @media (max-width: 576px) {
   #preloader img {
-    width: 40%;
+    width: 30%;
     height: auto;
     animation: scale 1s infinite alternate;
   }
 }
 @media (max-width: 768px) {
   #preloader img {
-    width: 40%;
+    width: 30%;
     height: auto;
     animation: scale 1s infinite alternate;
   }
 }
 @media (max-width: 1024) {
   #preloader img {
-    width: 40%;
+    width: 30%;
     height: auto;
     animation: scale 1s infinite alternate;
   }
