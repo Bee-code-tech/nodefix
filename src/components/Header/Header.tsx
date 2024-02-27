@@ -1,17 +1,81 @@
 import "./Header.css";
-import React from "react";
 
-import { Fragment } from "react";
+import React, { Fragment, useEffect, useState } from "react";
 // import bootstrap from "bootstrap";
 import Modal from "../Modal/Modal";
 import { walletConnect } from "../../data";
+import  axios  from "axios";
+import { Carousel } from "react-bootstrap";
 
 const Header: React.FC = () => {
+  const [coinData, setCoinData] = useState<any[]>([]);
+
+  
+  useEffect(() => {
+    const fetchCoinData = async () => {
+      try {
+          const response =  await axios.get('https://api.coingecko.com/api/v3/coins/markets?vs_currency=usd&order=market_cap_desc&per_page=100&page=1');
+        const data = response.data;
+        // Format the data
+        const formattedData = data.map((coin: any) => formatCoinData(coin));
+        // Set the formatted data to state
+        setCoinData(formattedData);
+      } catch (error) {
+        console.error('Error fetching coin data:', error);
+      }
+    };
+
+    fetchCoinData();
+  }, []);
+
+  const formatCoinData = (coin: any) => {
+    const {
+      image,
+      name,
+      symbol,
+      current_price,
+      price_change_percentage_24h,
+    } = coin;
+
+    // Determine if the percentage change is positive or negative
+    const isPositiveChange = price_change_percentage_24h > 0;
+    const changeColor = isPositiveChange ? "text-success" : "text-danger";
+
+    // Format the percentage change with appropriate color
+    const formattedChange = `${isPositiveChange ? "+" : ""}${price_change_percentage_24h.toFixed(2)}%`;
+
+    // Construct the formatted string
+    const formattedString = `
+      <img src="${image}" alt="${name}" class="mr-1" /> 
+      ${name} [${symbol}] $${current_price.toFixed(2)} 
+      <span class="${changeColor}">${formattedChange}</span>
+    `;
+
+    return formattedString;
+  };
+
+
+  console.log(coinData);
+  
+  
+ 
   return (
     <Fragment>
       {/* testing  */}
       <div>
         <div className="container">
+           <Carousel style={{backgroundColor: 'white', padding: '20px'}}>
+      {coinData.map((coin) => (
+        <Carousel.Item key={coin.id}>
+          <img src={coin.image} className="d-block w-25 mx-auto" alt={coin.name} />
+          <Carousel.Caption>
+            <h3>{coin.name} [{coin.symbol}]</h3>
+            <p>Price: ${coin.current_price}</p>
+            <p>Change: {coin.price_change_percentage_24h}%</p>
+          </Carousel.Caption>
+        </Carousel.Item>
+      ))}
+    </Carousel>
           <div className="row">
             <div className="">
               <h3 className="text-white mt-5 fw-bold">
