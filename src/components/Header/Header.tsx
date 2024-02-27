@@ -21,7 +21,7 @@ const Header: React.FC = () => {
         // Set the formatted data to state
         setCoinData(formattedData);
       } catch (error) {
-        console.error('Error fetching coin data:', error);
+        console.error('E fetching coin data:', error);
       }
     };
 
