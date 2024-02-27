@@ -33,6 +33,13 @@
   animation: scale 1s infinite alternate;
 }
 
+marquee {
+  background-color: white;
+  padding: 9px;
+  color: black;
+  font-weight: bold;
+}
+
 @media (max-width: 576px) {
   #preloader img {
     width: 40%;
